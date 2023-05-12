@@ -1,38 +1,86 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+:root{
+  --white:#FFF;
+  --bg: #003566;
+  --gray: #eaeaea;
+  --success:#32936F;
+}
+.wrapper{
+  width: 100%;
+  max-width: 500px;
+  padding: 30px 30px;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+}
+.wrapper .content .logo img{
+width: 100%;
+max-width: 100px;
+margin: 0 auto;
+}
+.wrapper .content .c1{
+  margin-top: 10px;
+  text-align: center;
+}
+.wrapper .content .c1 span{
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.wrapper .content .form{
+  margin-top: 30px;
+}
+.wrapper .content .form form input{
+  width: 100%;
+  padding: 20px 40px;
+  border: 1px solid var(--gray);
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.wrapper .content .form form input:focus{
+  border-color: var(--bg);
+}
+.wrapper .content .form form button{
+  background: var(--bg);
+  color: #FFF;
+  font-weight: 500;
+  border: none;
+  font-size: 1em;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper .content .form form .eInput .icon{
+   position: absolute;
+   top: 20px;
+   left: 15px;
+   color: var(--gray);
+}
+.wrapper .content .form form .eInput{
+  position: relative;
+}
+.status{
+  position: 20px;
+  border: 1px solid #003566;
+  background: #003566;
+  margin: 10px 0 10px;
+  border-radius: 5px;
+  display: none;
+  text-align: center;
+
+}
+.status .active{
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper.hide{
+  display: none;
 }
+
