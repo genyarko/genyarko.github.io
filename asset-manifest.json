@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/genyarko.github.io/static/css/main.512fd9e1.css",
+    "main.js": "/genyarko.github.io/static/js/main.08f439ad.js",
+    "static/js/787.f32f18d1.chunk.js": "/genyarko.github.io/static/js/787.f32f18d1.chunk.js",
+    "static/media/GHANAHOMES (1).png": "/genyarko.github.io/static/media/GHANAHOMES (1).37598e06df0b5a83ad4a.png",
+    "index.html": "/genyarko.github.io/index.html",
+    "main.512fd9e1.css.map": "/genyarko.github.io/static/css/main.512fd9e1.css.map",
+    "main.08f439ad.js.map": "/genyarko.github.io/static/js/main.08f439ad.js.map",
+    "787.f32f18d1.chunk.js.map": "/genyarko.github.io/static/js/787.f32f18d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512fd9e1.css",
+    "static/js/main.08f439ad.js"
+  ]
+}
